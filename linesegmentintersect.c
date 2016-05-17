@@ -56,10 +56,10 @@ int doIntersect(Point p1, Point q1, Point p2, Point q2)
 	printf ("[p2,q2,p2]=%d\n", o4);
  
     // General case
-    if (o1 != o2 && o3 != o4)
+	if (o1 != o2 && o3 != o4)
 	{
 		printf ("Criss Cross Orientation\n");
-        return true;
+		return true;
 	}
  
     // Special Cases
